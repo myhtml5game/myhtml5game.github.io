@@ -6,3 +6,6 @@ html, body {
   display: block;
   overflow: hidden;
 }
+h1 {
+  text-align: center;
+}
