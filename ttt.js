@@ -178,9 +178,7 @@ function ai_turn()
                 p.push(cc[x][y].st);
             }
         }
-        console.time('foo'); // FIXME
         var choice = minimax(p, 1, 0);
-        console.timeEnd('foo'); // FIXME
         if (choice < 10) put(cc[choice%3][Math.floor(choice/3)]);
         return;
     }
